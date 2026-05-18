@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3FBCA2C-FAC4-3675-C50B-F3A5749C2754" name="CATEGORIA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>D6F90899-85BF-0CCA-68FB-F1D89CBD2C78</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="CB286572-EBA9-BBD5-3F7E-0EB555AC4E90">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>0D69D525-5ED7-80D4-8526-AEB8D453CC9A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_categoria" id="45F97A2F-108A-5AAE-07E4-9164DCED0E6A">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>034EE243-3E68-90C1-1B6F-6B5D27C9EF06</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categoria" id="61F17CDC-C9BC-E75A-8FB6-80ABE1C94C94">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>F3E0DAAF-5B84-8911-1B2E-D2909F7D41A0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="477748CC-67DF-9388-4547-58F39C209CC3" name="PK_CATEGORIA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>8D004B19-100A-62CD-AE0C-5013560F9E09</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB286572-EBA9-BBD5-3F7E-0EB555AC4E90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

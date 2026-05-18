@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0496FDAC-66F5-CA22-0E73-C5CD6F77F134" name="FRUTA">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:16:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_fruta" id="13AEA334-1188-3E0F-9C79-FA2BE3BD8A44">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:16:47 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nivel" id="BD784F88-6BDE-C8D9-777E-845755AC0357">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:21:27 UTC</createdTime>
+<generatorID>5C1D4D71-764A-5F38-0AFE-AFE96324D42E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<referedAttribute>0C9E47B8-4198-44D1-F4F6-5DC4CA208430</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="198C2029-F643-A07F-F2D6-7F32D7F1AFFE">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:21:22 UTC</createdTime>
+<generatorID>147C2F3F-D9CF-6758-C879-F3FAA71A0DD4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<referedAttribute>F68BDF16-86A4-430D-F847-6E5A3DF3A2E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_fruta" id="67B66C23-BCE5-C52E-AAF0-7FA74BEFFD02">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:16:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA2CB847-8111-E156-6B5D-D8E6E2556725" name="PK_FRUTA">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:17:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>13AEA334-1188-3E0F-9C79-FA2BE3BD8A44</newElementsIDs>
+<usedAttributes>
+<attributeRef>13AEA334-1188-3E0F-9C79-FA2BE3BD8A44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

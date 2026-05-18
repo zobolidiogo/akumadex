@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D419B43A-9D16-07D9-9C82-393873AC46D3" name="AKUMADEX">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>7213D5DE-8EF9-975B-B09D-6756BE131B2B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nivel" id="A851004D-23F7-AE90-BC09-CBF899518C5E">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>E4A84903-091E-5F7B-A1A7-7A7E8EC9D571</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A872679-C52E-DCFA-859A-EF5AE87A6D83" referredColumn="2C5E8CF6-945C-2805-529F-987F3C24384A"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="D2C22ECB-7BF2-06B0-28E9-31127CFD9E7C">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>B53AA474-4F87-6024-A8E9-5C13E97CFBD6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE37C36-6F70-5A36-FCB9-DBB3A7F1B47D" referredColumn="7009AAA7-7D4D-AB39-3DCB-EFADEDFEF2DD"/>
+</associations>
+</Column>
+<Column name="data_descoberta" id="344BDE23-3D03-5A01-A970-B221D0AC7520">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>5AEA9FB2-243D-8EEE-9B01-24316A009384</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F84C92C-C8FA-A50A-C670-FB42AD52374B" name="PK_AKUMADEX">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>EADC3C8C-3C6E-8767-31FE-C435B33AEBF5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A851004D-23F7-AE90-BC09-CBF899518C5E"/>
+<colUsage columnID="D2C22ECB-7BF2-06B0-28E9-31127CFD9E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C0EF33A-E9E3-FDC2-30A8-BC2273CA6423" name="FK_AKUMADEX_USUARIO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>9328768E-452D-D334-6614-D2AC45F1670F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2C22ECB-7BF2-06B0-28E9-31127CFD9E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A74D7A7D-8047-F54C-9A45-0BB98B08096B" name="FK_AKUMADEX_NIVEL">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>D0926518-4E8A-17C9-7724-EE8D3AEED1ED</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A851004D-23F7-AE90-BC09-CBF899518C5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

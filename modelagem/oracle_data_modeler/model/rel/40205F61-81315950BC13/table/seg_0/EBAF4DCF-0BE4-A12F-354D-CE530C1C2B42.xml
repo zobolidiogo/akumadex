@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBAF4DCF-0BE4-A12F-354D-CE530C1C2B42" name="FRUTA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>0496FDAC-66F5-CA22-0E73-C5CD6F77F134</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fruta" id="744F49DB-E48C-DE75-FE0C-E2352425AD74">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>13AEA334-1188-3E0F-9C79-FA2BE3BD8A44</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_nivel" id="0401ECDE-B3DC-276A-EB37-C1507FE2A521">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>BD784F88-6BDE-C8D9-777E-845755AC0357</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2953F05F-984A-C360-E993-896E5410A76C" referredColumn="2C5E8CF6-945C-2805-529F-987F3C24384A"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="ED8F26F5-4881-8EB1-B23A-56E331A0200E">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>198C2029-F643-A07F-F2D6-7F32D7F1AFFE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76ECE112-0DA1-4F8C-92D2-4997682A5DC6" referredColumn="7009AAA7-7D4D-AB39-3DCB-EFADEDFEF2DD"/>
+</associations>
+</Column>
+<Column name="status_fruta" id="4644E047-5BB9-2EFB-548A-4F6462D22050">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>67B66C23-BCE5-C52E-AAF0-7FA74BEFFD02</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0532AE0-E0B3-35F1-94B7-777F636610C5" name="PK_FRUTA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>FA2CB847-8111-E156-6B5D-D8E6E2556725</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="744F49DB-E48C-DE75-FE0C-E2352425AD74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BAE8A53-0C9D-F199-3CF2-9476391E9DD5" name="FK_FRUTA_USUARIO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>147C2F3F-D9CF-6758-C879-F3FAA71A0DD4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED8F26F5-4881-8EB1-B23A-56E331A0200E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60F84DAF-F579-76EE-1098-A441A57F3005" name="FK_FRUTA_NIVEL">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>5C1D4D71-764A-5F38-0AFE-AFE96324D42E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0401ECDE-B3DC-276A-EB37-C1507FE2A521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_STATUS_FRUTA" directorySegmentName="seg_0" id="8FEF9BC3-8966-59A2-3ADF-5E2B509A735C">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 04:01:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<rule><![CDATA[status_fruta IN ('D','S','T')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

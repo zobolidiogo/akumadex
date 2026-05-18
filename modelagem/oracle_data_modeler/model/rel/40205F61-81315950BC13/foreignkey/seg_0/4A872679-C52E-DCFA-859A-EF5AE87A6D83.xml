@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A872679-C52E-DCFA-859A-EF5AE87A6D83" containerWithKeyObject="D419B43A-9D16-07D9-9C82-393873AC46D3" localFKIndex="A74D7A7D-8047-F54C-9A45-0BB98B08096B" name="FK_AKUMADEX_NIVEL">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>D0926518-4E8A-17C9-7724-EE8D3AEED1ED</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>NIVEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EAD24557-124A-BBF0-AB96-613D6450D097</referredTableID>
+<keyObject>8F6DEEDF-ACA7-4215-B657-01FE4E6135C1</keyObject>
+<referredKeyID>8F6DEEDF-ACA7-4215-B657-01FE4E6135C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nivel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

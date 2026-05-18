@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="743A695F-47E0-FCAE-E5DD-DF0AFFC50D6A" name="FRUTA_TROCA">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:24:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_troca" id="CA850AC2-FCE6-F669-4985-8E7C7025DF18">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:25:08 UTC</createdTime>
+<generatorID>39CB4738-26BC-3F61-C4CC-989120A11689</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<referedAttribute>5E08A7A1-9897-0EBE-DCFE-97B3D6F9A3BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fruta" id="14FFE5D1-B835-A36B-0478-E62DFB359783">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:25:12 UTC</createdTime>
+<generatorID>D6AAA2A5-B022-3394-1879-63603DC0C415</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<referedAttribute>13AEA334-1188-3E0F-9C79-FA2BE3BD8A44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="papel_fruta" id="4B9FED70-2FDC-3519-B721-09DBEFB28C32">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:24:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D95F4A48-1F5E-A6D2-F8C3-CCB40E5DFBF2" name="PK_FRUTA_TROCA">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:25:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>39CB4738-26BC-3F61-C4CC-989120A11689,D6AAA2A5-B022-3394-1879-63603DC0C415</newElementsIDs>
+<usedAttributes>
+<attributeRef>CA850AC2-FCE6-F669-4985-8E7C7025DF18</attributeRef>
+<attributeRef>14FFE5D1-B835-A36B-0478-E62DFB359783</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

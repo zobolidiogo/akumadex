@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72F9EC2C-B9CC-712B-04F2-15243AADD5F4" name="PORTADOR">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>91EBFDBF-F727-8D92-588A-5E99EB289461</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_portador" id="3EFDD1E3-25DA-419A-CCB3-294A4EA0A1EB">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>13F0CDA7-A8FD-8E81-B39B-A4B4E9C7F002</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_modelo" id="E8C2CDC0-728B-AA9C-F050-9FEFECD6C693">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>F8E2C652-FD40-883F-10D7-A7C850250A07</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="279D2742-3B9B-4387-422C-273B4B38598F" referredColumn="80913FBF-2A92-112D-AD13-0734C989EABD"/>
+</associations>
+</Column>
+<Column name="nome_portador" id="FAF541B2-79FA-0790-297E-85A090F41687">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>5DDC5223-A63F-2845-7B03-556A54944660</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="portador_vivo" id="32BD4220-2AF8-C304-C08D-6E6C6DF2A8EE">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>D2BD3A27-DEC4-1BA8-E6E1-9FBFFA69EF62</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_portador" id="908AADD9-0C93-D423-F76E-8F8754AA3F15">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>6C9B9560-161B-E3CC-E9EA-EACB6A084A07</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2CAB156-DA96-FC63-A270-3D818342B059" name="PK_PORTADOR">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>52C3ECDF-3158-DB51-FC96-C8644B0ED0F6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EFDD1E3-25DA-419A-CCB3-294A4EA0A1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BB7310F-A85F-6C89-0B81-63EBAD72635C" name="FK_PORTADOR_MODELO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>4A0AE329-BA45-9923-7F52-BE05879CA09E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8C2CDC0-728B-AA9C-F050-9FEFECD6C693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_PORTADOR_VIVO" directorySegmentName="seg_0" id="79F7AF64-0897-3207-08FC-C29FBA8D0099">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 04:05:37 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<rule><![CDATA[portador_vivo IN ('V', 'M')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

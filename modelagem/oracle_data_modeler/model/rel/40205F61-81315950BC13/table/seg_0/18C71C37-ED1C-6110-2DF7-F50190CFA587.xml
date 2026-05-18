@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18C71C37-ED1C-6110-2DF7-F50190CFA587" name="FRUTA_TROCA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>743A695F-47E0-FCAE-E5DD-DF0AFFC50D6A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_troca" id="30B3B4BC-0309-2DBC-0EAF-CB8827EC4F1C">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>CA850AC2-FCE6-F669-4985-8E7C7025DF18</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0F80A8A-FBE2-9D1F-31C2-B2DCD30BEE12" referredColumn="1F27738A-5B7C-A29F-1216-80C95BF646CC"/>
+</associations>
+</Column>
+<Column name="id_fruta" id="9AD9E754-E99A-FF1F-5FAF-9B2B56FDD42C">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>14FFE5D1-B835-A36B-0478-E62DFB359783</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A01B04B-812F-3E13-8FCD-04FD0D197EDB" referredColumn="744F49DB-E48C-DE75-FE0C-E2352425AD74"/>
+</associations>
+</Column>
+<Column name="papel_fruta" id="928F7CD7-2C03-0B53-07EB-09116D85832A">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>4B9FED70-2FDC-3519-B721-09DBEFB28C32</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ACEB147-B325-D31C-39B2-3F2B0BA0B438" name="PK_FRUTA_TROCA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>D95F4A48-1F5E-A6D2-F8C3-CCB40E5DFBF2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30B3B4BC-0309-2DBC-0EAF-CB8827EC4F1C"/>
+<colUsage columnID="9AD9E754-E99A-FF1F-5FAF-9B2B56FDD42C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97BEC2D5-5F10-DF46-4495-23C0C298B429" name="FK_FRUTA_TROCA_FRUTA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>D6AAA2A5-B022-3394-1879-63603DC0C415</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AD9E754-E99A-FF1F-5FAF-9B2B56FDD42C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0051942D-1F51-2C3C-5C33-506A95807996" name="FK_FRUTA_TROCA_TROCA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>39CB4738-26BC-3F61-C4CC-989120A11689</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30B3B4BC-0309-2DBC-0EAF-CB8827EC4F1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_PAPEL_FRUTA" directorySegmentName="seg_0" id="9942B6F2-8279-B1BD-1A2E-6DB90BDBFE4C">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:59:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<rule><![CDATA[papel_fruta IN ('O','S')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

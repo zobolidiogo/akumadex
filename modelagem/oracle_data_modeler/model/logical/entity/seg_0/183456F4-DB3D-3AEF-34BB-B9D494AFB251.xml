@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="183456F4-DB3D-3AEF-34BB-B9D494AFB251" name="MODELO">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:00:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_modelo" id="A6851FCF-12D6-BCEB-BFA0-EC631741DC57">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:00:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="82FFF6CD-53E8-33A5-D0D2-CA35AB611BBF">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:02:19 UTC</createdTime>
+<generatorID>42BB14E9-83FA-D948-4EAC-939E3F42AE26</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<referedAttribute>0D69D525-5ED7-80D4-8526-AEB8D453CC9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_conhecido" id="C701DBAB-63FB-C06C-3A58-C1F829D8AE8B">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:00:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cientifico" id="2E36606F-2E7C-213F-A62B-2B7DCB08CCD3">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:00:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="max_evolucao" id="00757894-F55A-D567-DA94-788DBD8CBD4E">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:01:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E799377A-7A93-1DA5-E03A-B10F7C8CE728" name="PK_MODELO">
+<createdBy>conve</createdBy>
+<createdTime>2026-05-05 12:01:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A6851FCF-12D6-BCEB-BFA0-EC631741DC57</newElementsIDs>
+<usedAttributes>
+<attributeRef>A6851FCF-12D6-BCEB-BFA0-EC631741DC57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

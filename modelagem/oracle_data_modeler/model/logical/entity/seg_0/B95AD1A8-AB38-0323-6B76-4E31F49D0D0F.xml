@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B95AD1A8-AB38-0323-6B76-4E31F49D0D0F" name="EVOLUCAO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:45:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evolucao" id="736D99EF-1B4E-93E4-2BA8-EB9C77580D41">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:45:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nivel" id="065A40D8-34CC-F429-8975-79605BD9398B">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:47:16 UTC</createdTime>
+<generatorID>71133562-BD02-A19C-E977-CDFD2DD91384</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<referedAttribute>0C9E47B8-4198-44D1-F4F6-5DC4CA208430</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_instancias" id="E86B796A-FB91-96BC-89AB-B37E3E89E47D">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:46:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_resultado" id="6EB4B79D-6CE0-39DF-6236-99968F0039E7">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:46:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C1B1066-5A30-6720-D49C-79219854220F" name="EVOLUCAO PK">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:46:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="40205F61-6E72-8796-F9E0-81315950BC13" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>736D99EF-1B4E-93E4-2BA8-EB9C77580D41</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

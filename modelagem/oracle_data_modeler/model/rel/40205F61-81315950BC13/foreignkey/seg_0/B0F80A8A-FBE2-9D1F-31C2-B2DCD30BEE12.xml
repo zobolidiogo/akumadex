@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0F80A8A-FBE2-9D1F-31C2-B2DCD30BEE12" containerWithKeyObject="18C71C37-ED1C-6110-2DF7-F50190CFA587" localFKIndex="0051942D-1F51-2C3C-5C33-506A95807996" name="FK_FRUTA_TROCA_TROCA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>39CB4738-26BC-3F61-C4CC-989120A11689</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>TROCA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0F22395-4F9D-8876-C647-4098032D92C3</referredTableID>
+<keyObject>EE0DA3C5-FA9A-5822-B668-1D9422422AB8</keyObject>
+<referredKeyID>EE0DA3C5-FA9A-5822-B668-1D9422422AB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_troca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

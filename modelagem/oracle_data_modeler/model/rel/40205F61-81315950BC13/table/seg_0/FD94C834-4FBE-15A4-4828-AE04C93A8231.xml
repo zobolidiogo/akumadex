@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD94C834-4FBE-15A4-4828-AE04C93A8231" name="EVOLUCAO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>B95AD1A8-AB38-0323-6B76-4E31F49D0D0F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evolucao" id="44174E59-DB75-970F-14C9-BA39447D9B14">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>736D99EF-1B4E-93E4-2BA8-EB9C77580D41</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_nivel" id="1D22E737-0398-F883-E199-58E5A91EF2C9">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>065A40D8-34CC-F429-8975-79605BD9398B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9009E766-5014-170E-E09D-23CD2E37FC43" referredColumn="2C5E8CF6-945C-2805-529F-987F3C24384A"/>
+</associations>
+</Column>
+<Column name="qt_instancias" id="65F3BB52-AA0F-B88B-B437-FC4CE1864AB3">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>E86B796A-FB91-96BC-89AB-B37E3E89E47D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_resultado" id="EB4143D6-547B-2B3E-2527-33AC92BA092E">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>6EB4B79D-6CE0-39DF-6236-99968F0039E7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7BEE2CD-5396-F142-CE11-5FBA95C0FD1D" name="PK_EVOLUCAO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>3C1B1066-5A30-6720-D49C-79219854220F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44174E59-DB75-970F-14C9-BA39447D9B14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0323C25F-320D-0189-0065-A6DE8CD85442" name="UN_NIVEL_EVOLUCAO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:56:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D22E737-0398-F883-E199-58E5A91EF2C9"/>
+<colUsage columnID="EB4143D6-547B-2B3E-2527-33AC92BA092E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2778C863-1C2C-C0A1-3F2F-7D0A34E0DDD9" name="FK_EVOLUCAO_NIVEL">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>71133562-BD02-A19C-E977-CDFD2DD91384</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D22E737-0398-F883-E199-58E5A91EF2C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

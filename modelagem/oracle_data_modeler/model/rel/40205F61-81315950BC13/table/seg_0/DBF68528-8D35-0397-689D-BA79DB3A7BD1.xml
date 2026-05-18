@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBF68528-8D35-0397-689D-BA79DB3A7BD1" name="USUARIO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>D599BCC7-073D-F23E-1211-56F75757932C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="7009AAA7-7D4D-AB39-3DCB-EFADEDFEF2DD">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>F68BDF16-86A4-430D-F847-6E5A3DF3A2E5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_usuario" id="CCC166FC-0B08-DAD4-068D-BB9E2743D477">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>585DCE05-8B20-2892-A625-EFE8C423F8C1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_usuario" id="8E569680-CC7B-F6E6-3C85-3A4645503E9C">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>9D318BFA-9FCB-5CBC-A7EA-36CDAECDD444</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hash_senha" id="E10085B0-AEBD-F8E7-4484-F6A57CAF69D1">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>85F3D5B1-FB9B-C074-96C0-892584BC4872</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_belis" id="0AEDE091-704D-FA05-8B0C-C0C42B5BE017">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>50E8E6C6-EF68-AB72-12DB-A1F8EFEA76BA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="streak_login" id="D7894E0F-7B74-4743-8F10-06096140F03F">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>C35C44D1-5233-5648-F0DC-4373A0920DC1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ultimo_login" id="F5974B5D-6FD1-FEB3-8357-92B3125E9D60">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>4D625825-8FB7-2ABD-AD4E-DEC693558ADB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_verificado" id="860028B2-6623-177B-0C73-50DBD1A34BDC">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>A778106E-DAC6-F024-8D38-58EC57B9922A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_usuario" id="12BE94F4-E651-8357-36B7-84AC0BF98F38">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>89DB49BD-7018-2A1A-596A-929475354FFC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="8D998428-64B3-8DB1-2DD7-05B55C9367CF">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>34F43AB8-EFDB-6DC7-CACD-13DA7160A5B8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06673195-159A-6634-F1CA-4D7B76B55B0A" name="PK_USUARIO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>F3F16698-6E72-BE33-77D3-D5D0E2484DF3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7009AAA7-7D4D-AB39-3DCB-EFADEDFEF2DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7F48256-EF17-33E3-4601-1E9C8A07D3CB" name="UN_NOME_USUARIO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:53:48 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCC166FC-0B08-DAD4-068D-BB9E2743D477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="668CECDB-92C6-4E97-DF0F-ED98B4375F88" name="UN_EMAIL_USUARIO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:53:23 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E569680-CC7B-F6E6-3C85-3A4645503E9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_STATUS_USUARIO" directorySegmentName="seg_0" id="52575E0C-F3B1-BA52-8ECC-2B8F095F4896">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 04:03:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<rule><![CDATA[status_usuario IN ('A', 'I')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_EMAIL_VERIFICADO" directorySegmentName="seg_0" id="ADDEA0BC-506D-B6DC-2D4E-9DE6DC33D05F">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 04:04:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<rule><![CDATA[email_verificado IN ('V','N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

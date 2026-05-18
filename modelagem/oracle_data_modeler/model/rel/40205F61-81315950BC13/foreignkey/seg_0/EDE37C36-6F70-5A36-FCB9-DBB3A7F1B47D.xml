@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDE37C36-6F70-5A36-FCB9-DBB3A7F1B47D" containerWithKeyObject="D419B43A-9D16-07D9-9C82-393873AC46D3" localFKIndex="7C0EF33A-E9E3-FDC2-30A8-BC2273CA6423" name="FK_AKUMADEX_USUARIO">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>9328768E-452D-D334-6614-D2AC45F1670F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBF68528-8D35-0397-689D-BA79DB3A7BD1</referredTableID>
+<keyObject>06673195-159A-6634-F1CA-4D7B76B55B0A</keyObject>
+<referredKeyID>06673195-159A-6634-F1CA-4D7B76B55B0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

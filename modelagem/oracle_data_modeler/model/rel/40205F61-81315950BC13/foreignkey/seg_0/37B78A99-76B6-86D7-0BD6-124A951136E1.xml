@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="37B78A99-76B6-86D7-0BD6-124A951136E1" containerWithKeyObject="24F37176-16B3-6EB0-2D94-7404C900DE40" localFKIndex="30925954-DEA8-50E0-53BD-A29117F528F9" name="FK_MODELO_CATEGORIA">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>42BB14E9-83FA-D948-4EAC-939E3F42AE26</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3FBCA2C-FAC4-3675-C50B-F3A5749C2754</referredTableID>
+<keyObject>477748CC-67DF-9388-4547-58F39C209CC3</keyObject>
+<referredKeyID>477748CC-67DF-9388-4547-58F39C209CC3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

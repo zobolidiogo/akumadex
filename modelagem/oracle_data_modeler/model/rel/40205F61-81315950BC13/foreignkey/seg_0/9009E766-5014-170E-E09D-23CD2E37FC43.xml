@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9009E766-5014-170E-E09D-23CD2E37FC43" containerWithKeyObject="FD94C834-4FBE-15A4-4828-AE04C93A8231" localFKIndex="2778C863-1C2C-C0A1-3F2F-7D0A34E0DDD9" name="FK_EVOLUCAO_NIVEL">
+<createdBy>zobol</createdBy>
+<createdTime>2026-05-18 03:50:46 UTC</createdTime>
+<generatorID>71133562-BD02-A19C-E977-CDFD2DD91384</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>NIVEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EAD24557-124A-BBF0-AB96-613D6450D097</referredTableID>
+<keyObject>8F6DEEDF-ACA7-4215-B657-01FE4E6135C1</keyObject>
+<referredKeyID>8F6DEEDF-ACA7-4215-B657-01FE4E6135C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nivel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
